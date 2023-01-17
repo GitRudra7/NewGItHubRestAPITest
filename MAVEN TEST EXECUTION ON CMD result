@@ -1,0 +1,494 @@
+//********** Set JAVA JDK 11 path in env variables*************//
+ In path  D:\Users\Owner\JAVA\jdk-11.0.17\bin and also
+  Java_home value as D:\Users\Owner\JAVA\jdk-11.0.17 under system variables
+
+Microsoft Windows [Version 10.0.18362.1256]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+D:\Users\Owner\eclipse-workspace-old\GitHubRestAPI>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------< GoRestAPI:GoRestAPI >-------------------------
+[INFO] Building GoRestAPI 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ GoRestAPI ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ GoRestAPI ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.573 s
+[INFO] Finished at: 2023-01-17T16:24:38+05:30
+[INFO] ------------------------------------------------------------------------
+
+D:\Users\Owner\eclipse-workspace-old\GitHubRestAPI>mvn test
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------< GoRestAPI:GoRestAPI >-------------------------
+[INFO] Building GoRestAPI 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ GoRestAPI ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ GoRestAPI ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ GoRestAPI ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ GoRestAPI ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:3.0.0-M7:test (default-test) @ GoRestAPI ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{
+    "id": 589962472,
+    "node_id": "R_kgDOIyoc6A",
+    "name": "Nancee",
+    "full_name": "GitRudra7/Nancee",
+    "private": false,
+    "owner": {
+        "login": "GitRudra7",
+        "id": 116152202,
+        "node_id": "U_kgDOBuxXig",
+        "avatar_url": "https://avatars.githubusercontent.com/u/116152202?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/GitRudra7",
+        "html_url": "https://github.com/GitRudra7",
+        "followers_url": "https://api.github.com/users/GitRudra7/followers",
+        "following_url": "https://api.github.com/users/GitRudra7/following{/other_user}",
+        "gists_url": "https://api.github.com/users/GitRudra7/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/GitRudra7/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/GitRudra7/subscriptions",
+        "organizations_url": "https://api.github.com/users/GitRudra7/orgs",
+        "repos_url": "https://api.github.com/users/GitRudra7/repos",
+        "events_url": "https://api.github.com/users/GitRudra7/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/GitRudra7/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "html_url": "https://github.com/GitRudra7/Nancee",
+    "description": "Repo isNancee",
+    "fork": false,
+    "url": "https://api.github.com/repos/GitRudra7/Nancee",
+    "forks_url": "https://api.github.com/repos/GitRudra7/Nancee/forks",
+    "keys_url": "https://api.github.com/repos/GitRudra7/Nancee/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/GitRudra7/Nancee/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/GitRudra7/Nancee/teams",
+    "hooks_url": "https://api.github.com/repos/GitRudra7/Nancee/hooks",
+    "issue_events_url": "https://api.github.com/repos/GitRudra7/Nancee/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/GitRudra7/Nancee/events",
+    "assignees_url": "https://api.github.com/repos/GitRudra7/Nancee/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/GitRudra7/Nancee/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/GitRudra7/Nancee/tags",
+    "blobs_url": "https://api.github.com/repos/GitRudra7/Nancee/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/GitRudra7/Nancee/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/GitRudra7/Nancee/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/GitRudra7/Nancee/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/GitRudra7/Nancee/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/GitRudra7/Nancee/languages",
+    "stargazers_url": "https://api.github.com/repos/GitRudra7/Nancee/stargazers",
+    "contributors_url": "https://api.github.com/repos/GitRudra7/Nancee/contributors",
+    "subscribers_url": "https://api.github.com/repos/GitRudra7/Nancee/subscribers",
+    "subscription_url": "https://api.github.com/repos/GitRudra7/Nancee/subscription",
+    "commits_url": "https://api.github.com/repos/GitRudra7/Nancee/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/GitRudra7/Nancee/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/GitRudra7/Nancee/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/GitRudra7/Nancee/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/GitRudra7/Nancee/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/GitRudra7/Nancee/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/GitRudra7/Nancee/merges",
+    "archive_url": "https://api.github.com/repos/GitRudra7/Nancee/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/GitRudra7/Nancee/downloads",
+    "issues_url": "https://api.github.com/repos/GitRudra7/Nancee/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/GitRudra7/Nancee/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/GitRudra7/Nancee/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/GitRudra7/Nancee/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/GitRudra7/Nancee/labels{/name}",
+    "releases_url": "https://api.github.com/repos/GitRudra7/Nancee/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/GitRudra7/Nancee/deployments",
+    "created_at": "2023-01-17T10:55:17Z",
+    "updated_at": "2023-01-17T10:55:17Z",
+    "pushed_at": "2023-01-17T10:55:18Z",
+    "git_url": "git://github.com/GitRudra7/Nancee.git",
+    "ssh_url": "git@github.com:GitRudra7/Nancee.git",
+    "clone_url": "https://github.com/GitRudra7/Nancee.git",
+    "svn_url": "https://github.com/GitRudra7/Nancee",
+    "homepage": "https://github.com",
+    "size": 0,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": null,
+    "has_issues": false,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": false,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "allow_forking": true,
+    "is_template": true,
+    "web_commit_signoff_required": false,
+    "topics": [
+
+    ],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "main",
+    "permissions": {
+        "admin": true,
+        "maintain": true,
+        "push": true,
+        "triage": true,
+        "pull": true
+    },
+    "allow_squash_merge": true,
+    "allow_merge_commit": true,
+    "allow_rebase_merge": true,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false,
+    "allow_update_branch": false,
+    "use_squash_pr_title_as_default": false,
+    "squash_merge_commit_message": "COMMIT_MESSAGES",
+    "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+    "merge_commit_message": "PR_TITLE",
+    "merge_commit_title": "MERGE_MESSAGE",
+    "network_count": 0,
+    "subscribers_count": 1
+}
+{
+    "id": 589962472,
+    "node_id": "R_kgDOIyoc6A",
+    "name": "Nancee",
+    "full_name": "GitRudra7/Nancee",
+    "private": false,
+    "owner": {
+        "login": "GitRudra7",
+        "id": 116152202,
+        "node_id": "U_kgDOBuxXig",
+        "avatar_url": "https://avatars.githubusercontent.com/u/116152202?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/GitRudra7",
+        "html_url": "https://github.com/GitRudra7",
+        "followers_url": "https://api.github.com/users/GitRudra7/followers",
+        "following_url": "https://api.github.com/users/GitRudra7/following{/other_user}",
+        "gists_url": "https://api.github.com/users/GitRudra7/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/GitRudra7/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/GitRudra7/subscriptions",
+        "organizations_url": "https://api.github.com/users/GitRudra7/orgs",
+        "repos_url": "https://api.github.com/users/GitRudra7/repos",
+        "events_url": "https://api.github.com/users/GitRudra7/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/GitRudra7/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "html_url": "https://github.com/GitRudra7/Nancee",
+    "description": "Repo isNancee",
+    "fork": false,
+    "url": "https://api.github.com/repos/GitRudra7/Nancee",
+    "forks_url": "https://api.github.com/repos/GitRudra7/Nancee/forks",
+    "keys_url": "https://api.github.com/repos/GitRudra7/Nancee/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/GitRudra7/Nancee/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/GitRudra7/Nancee/teams",
+    "hooks_url": "https://api.github.com/repos/GitRudra7/Nancee/hooks",
+    "issue_events_url": "https://api.github.com/repos/GitRudra7/Nancee/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/GitRudra7/Nancee/events",
+    "assignees_url": "https://api.github.com/repos/GitRudra7/Nancee/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/GitRudra7/Nancee/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/GitRudra7/Nancee/tags",
+    "blobs_url": "https://api.github.com/repos/GitRudra7/Nancee/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/GitRudra7/Nancee/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/GitRudra7/Nancee/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/GitRudra7/Nancee/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/GitRudra7/Nancee/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/GitRudra7/Nancee/languages",
+    "stargazers_url": "https://api.github.com/repos/GitRudra7/Nancee/stargazers",
+    "contributors_url": "https://api.github.com/repos/GitRudra7/Nancee/contributors",
+    "subscribers_url": "https://api.github.com/repos/GitRudra7/Nancee/subscribers",
+    "subscription_url": "https://api.github.com/repos/GitRudra7/Nancee/subscription",
+    "commits_url": "https://api.github.com/repos/GitRudra7/Nancee/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/GitRudra7/Nancee/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/GitRudra7/Nancee/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/GitRudra7/Nancee/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/GitRudra7/Nancee/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/GitRudra7/Nancee/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/GitRudra7/Nancee/merges",
+    "archive_url": "https://api.github.com/repos/GitRudra7/Nancee/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/GitRudra7/Nancee/downloads",
+    "issues_url": "https://api.github.com/repos/GitRudra7/Nancee/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/GitRudra7/Nancee/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/GitRudra7/Nancee/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/GitRudra7/Nancee/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/GitRudra7/Nancee/labels{/name}",
+    "releases_url": "https://api.github.com/repos/GitRudra7/Nancee/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/GitRudra7/Nancee/deployments",
+    "created_at": "2023-01-17T10:55:17Z",
+    "updated_at": "2023-01-17T10:55:17Z",
+    "pushed_at": "2023-01-17T10:55:18Z",
+    "git_url": "git://github.com/GitRudra7/Nancee.git",
+    "ssh_url": "git@github.com:GitRudra7/Nancee.git",
+    "clone_url": "https://github.com/GitRudra7/Nancee.git",
+    "svn_url": "https://github.com/GitRudra7/Nancee",
+    "homepage": "https://github.com",
+    "size": 0,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": null,
+    "has_issues": false,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": false,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "allow_forking": true,
+    "is_template": true,
+    "web_commit_signoff_required": false,
+    "topics": [
+
+    ],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "main",
+    "permissions": {
+        "admin": true,
+        "maintain": true,
+        "push": true,
+        "triage": true,
+        "pull": true
+    },
+    "temp_clone_token": "",
+    "allow_squash_merge": true,
+    "allow_merge_commit": true,
+    "allow_rebase_merge": true,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false,
+    "allow_update_branch": false,
+    "use_squash_pr_title_as_default": false,
+    "squash_merge_commit_message": "COMMIT_MESSAGES",
+    "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+    "merge_commit_message": "PR_TITLE",
+    "merge_commit_title": "MERGE_MESSAGE",
+    "security_and_analysis": {
+        "secret_scanning": {
+            "status": "disabled"
+        },
+        "secret_scanning_push_protection": {
+            "status": "disabled"
+        }
+    },
+    "network_count": 0,
+    "subscribers_count": 1
+}
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Tue, 17 Jan 2023 10:55:20 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: W/"ce545c724ac3d8e9d58300038cfd830069615dcafd1ec1a112573c646ce62764"
+X-OAuth-Scopes: repo
+X-Accepted-OAuth-Scopes:
+github-authentication-token-expiration: 2023-03-15 12:53:10 UTC
+X-GitHub-Media-Type: github.v3; format=json
+x-github-api-version-selected: 2022-11-28
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4997
+X-RateLimit-Reset: 1673956518
+X-RateLimit-Used: 3
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+Vary: Accept-Encoding, Accept, X-Requested-With
+Content-Encoding: gzip
+X-GitHub-Request-Id: F587:5299:48A3C5:5BA8D2:63C67E98
+
+{
+    "id": 589962472,
+    "node_id": "R_kgDOIyoc6A",
+    "name": "Nancee",
+    "full_name": "GitRudra7/Nancee",
+    "private": false,
+    "owner": {
+        "login": "GitRudra7",
+        "id": 116152202,
+        "node_id": "U_kgDOBuxXig",
+        "avatar_url": "https://avatars.githubusercontent.com/u/116152202?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/GitRudra7",
+        "html_url": "https://github.com/GitRudra7",
+        "followers_url": "https://api.github.com/users/GitRudra7/followers",
+        "following_url": "https://api.github.com/users/GitRudra7/following{/other_user}",
+        "gists_url": "https://api.github.com/users/GitRudra7/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/GitRudra7/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/GitRudra7/subscriptions",
+        "organizations_url": "https://api.github.com/users/GitRudra7/orgs",
+        "repos_url": "https://api.github.com/users/GitRudra7/repos",
+        "events_url": "https://api.github.com/users/GitRudra7/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/GitRudra7/received_events",
+        "type": "User",
+        "site_admin": false
+    },
+    "html_url": "https://github.com/GitRudra7/Nancee",
+    "description": "This is ur updated Repo",
+    "fork": false,
+    "url": "https://api.github.com/repos/GitRudra7/Nancee",
+    "forks_url": "https://api.github.com/repos/GitRudra7/Nancee/forks",
+    "keys_url": "https://api.github.com/repos/GitRudra7/Nancee/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/GitRudra7/Nancee/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/GitRudra7/Nancee/teams",
+    "hooks_url": "https://api.github.com/repos/GitRudra7/Nancee/hooks",
+    "issue_events_url": "https://api.github.com/repos/GitRudra7/Nancee/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/GitRudra7/Nancee/events",
+    "assignees_url": "https://api.github.com/repos/GitRudra7/Nancee/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/GitRudra7/Nancee/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/GitRudra7/Nancee/tags",
+    "blobs_url": "https://api.github.com/repos/GitRudra7/Nancee/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/GitRudra7/Nancee/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/GitRudra7/Nancee/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/GitRudra7/Nancee/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/GitRudra7/Nancee/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/GitRudra7/Nancee/languages",
+    "stargazers_url": "https://api.github.com/repos/GitRudra7/Nancee/stargazers",
+    "contributors_url": "https://api.github.com/repos/GitRudra7/Nancee/contributors",
+    "subscribers_url": "https://api.github.com/repos/GitRudra7/Nancee/subscribers",
+    "subscription_url": "https://api.github.com/repos/GitRudra7/Nancee/subscription",
+    "commits_url": "https://api.github.com/repos/GitRudra7/Nancee/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/GitRudra7/Nancee/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/GitRudra7/Nancee/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/GitRudra7/Nancee/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/GitRudra7/Nancee/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/GitRudra7/Nancee/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/GitRudra7/Nancee/merges",
+    "archive_url": "https://api.github.com/repos/GitRudra7/Nancee/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/GitRudra7/Nancee/downloads",
+    "issues_url": "https://api.github.com/repos/GitRudra7/Nancee/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/GitRudra7/Nancee/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/GitRudra7/Nancee/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/GitRudra7/Nancee/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/GitRudra7/Nancee/labels{/name}",
+    "releases_url": "https://api.github.com/repos/GitRudra7/Nancee/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/GitRudra7/Nancee/deployments",
+    "created_at": "2023-01-17T10:55:17Z",
+    "updated_at": "2023-01-17T10:55:20Z",
+    "pushed_at": "2023-01-17T10:55:18Z",
+    "git_url": "git://github.com/GitRudra7/Nancee.git",
+    "ssh_url": "git@github.com:GitRudra7/Nancee.git",
+    "clone_url": "https://github.com/GitRudra7/Nancee.git",
+    "svn_url": "https://github.com/GitRudra7/Nancee",
+    "homepage": "https://github.com",
+    "size": 0,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": null,
+    "has_issues": false,
+    "has_projects": false,
+    "has_downloads": true,
+    "has_wiki": false,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "topics": [
+
+    ],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "main",
+    "permissions": {
+        "admin": true,
+        "maintain": true,
+        "push": true,
+        "triage": true,
+        "pull": true
+    },
+    "allow_squash_merge": true,
+    "allow_merge_commit": true,
+    "allow_rebase_merge": true,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false,
+    "allow_update_branch": false,
+    "use_squash_pr_title_as_default": false,
+    "squash_merge_commit_message": "COMMIT_MESSAGES",
+    "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+    "merge_commit_message": "PR_TITLE",
+    "merge_commit_title": "MERGE_MESSAGE",
+    "security_and_analysis": {
+        "secret_scanning": {
+            "status": "disabled"
+        },
+        "secret_scanning_push_protection": {
+            "status": "disabled"
+        }
+    },
+    "network_count": 0,
+    "subscribers_count": 1
+}
+{
+    "message": "Must have admin rights to Repository.",
+    "documentation_url": "https://docs.github.com/rest/reference/repos#delete-a-repository"
+}
+
+{
+    "message": "Not Found",
+    "documentation_url": "https://docs.github.com/rest/reference/repos#get-a-repository"
+}
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.078 s - in TestSuite
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  37.965 s
+[INFO] Finished at: 2023-01-17T16:25:27+05:30
+[INFO] ------------------------------------------------------------------------
+
+D:\Users\Owner\eclipse-workspace-old\GitHubRestAPI>

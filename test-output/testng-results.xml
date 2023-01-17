@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-16T21:07:51 IST" name="Suite" finished-at="2023-01-16T21:08:01 IST" duration-ms="9497">
+    <groups>
+    </groups>
+    <test started-at="2023-01-16T21:07:51 IST" name="GItHubRestAPITestOnRepoOperations" finished-at="2023-01-16T21:08:01 IST" duration-ms="9497">
+      <class name="gra.Tests.GraTestWithFaker">
+        <test-method is-config="true" signature="TestSetup()[pri:0, instance:gra.Tests.GraTestWithFaker@771a660]" started-at="2023-01-16T21:07:52 IST" name="TestSetup" finished-at="2023-01-16T21:07:52 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetup -->
+        <test-method signature="CreateRepoAPITest()[pri:1, instance:gra.Tests.GraTestWithFaker@771a660]" started-at="2023-01-16T21:07:52 IST" name="CreateRepoAPITest" finished-at="2023-01-16T21:07:58 IST" duration-ms="5577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRepoAPITest -->
+        <test-method signature="GetRepoAPITest()[pri:2, instance:gra.Tests.GraTestWithFaker@771a660]" started-at="2023-01-16T21:07:58 IST" name="GetRepoAPITest" finished-at="2023-01-16T21:07:59 IST" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetRepoAPITest -->
+        <test-method signature="UpdateRepoAPITest()[pri:3, instance:gra.Tests.GraTestWithFaker@771a660]" started-at="2023-01-16T21:07:59 IST" name="UpdateRepoAPITest" finished-at="2023-01-16T21:07:59 IST" duration-ms="845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateRepoAPITest -->
+        <test-method signature="DeleteRepoNoAdminAPITest()[pri:4, instance:gra.Tests.GraTestWithFaker@771a660]" started-at="2023-01-16T21:07:59 IST" name="DeleteRepoNoAdminAPITest" finished-at="2023-01-16T21:08:00 IST" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteRepoNoAdminAPITest -->
+        <test-method signature="DeleteRepoWithAdminAPITest()[pri:5, instance:gra.Tests.GraTestWithFaker@771a660]" started-at="2023-01-16T21:08:00 IST" name="DeleteRepoWithAdminAPITest" finished-at="2023-01-16T21:08:00 IST" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteRepoWithAdminAPITest -->
+        <test-method signature="GetRepoAPITestAfterDelete()[pri:6, instance:gra.Tests.GraTestWithFaker@771a660]" started-at="2023-01-16T21:08:01 IST" name="GetRepoAPITestAfterDelete" finished-at="2023-01-16T21:08:01 IST" depends-on-methods="gra.Tests.GraTestWithFaker.DeleteRepoWithAdminAPITest" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetRepoAPITestAfterDelete -->
+      </class> <!-- gra.Tests.GraTestWithFaker -->
+    </test> <!-- GItHubRestAPITestOnRepoOperations -->
+  </suite> <!-- Suite -->
+</testng-results>
