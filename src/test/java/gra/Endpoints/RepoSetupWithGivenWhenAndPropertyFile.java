@@ -9,8 +9,8 @@ import io.restassured.response.Response;
 
 public class RepoSetupWithGivenWhenAndPropertyFile
 {
-	public static String BearerToken = "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";
-	public static String BearerTokenAdmin = "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";	
+	public static String BearerToken = "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";
+	public static String BearerTokenAdmin = "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";	
 	
 	// method created for getting URL's from properties file
 			static ResourceBundle getURL()

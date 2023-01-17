@@ -6,12 +6,17 @@
   </listeners>
   <test thread-count="5" name="GItHubRestAPITestOnRepoOperations(failed)" verbose="0">
     <classes>
-      <class name="gra.Tests.GraTestWithFakerAndPropertyFile">
+      <class name="gra.Tests.GraTestWithFaker">
         <methods>
-          <include name="TestSetup"/>
+          <include name="DeleteRepoNoAdminAPITest"/>
+          <include name="GetRepoAPITestAfterDelete"/>
+          <include name="UpdateRepoAPITest"/>
           <include name="GetRepoAPITest"/>
+          <include name="DeleteRepoWithAdminAPITest"/>
+          <include name="TestSetup"/>
+          <include name="CreateRepoAPITest"/>
         </methods>
-      </class> <!-- gra.Tests.GraTestWithFakerAndPropertyFile -->
+      </class> <!-- gra.Tests.GraTestWithFaker -->
     </classes>
   </test> <!-- GItHubRestAPITestOnRepoOperations(failed) -->
 </suite> <!-- Failed suite [Suite] -->

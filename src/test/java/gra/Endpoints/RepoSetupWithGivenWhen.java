@@ -6,8 +6,8 @@ import io.restassured.response.Response;
 
 public class RepoSetupWithGivenWhen
 {
-	public static String BearerToken = "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";
-	public static String BearerTokenAdmin = "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";	
+	public static String BearerToken = "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";
+	public static String BearerTokenAdmin = "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";	
 	
 	public static Response CreateRepo(Repo payload) // payload is a variable with the type Repo class , also return type of this mthd is Response, as we r returning response
 													// will pass payload (generated in test class using Repo class of payload) to this mthd .
